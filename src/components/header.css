@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f3c88;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.app-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  background-color: #1f3c88;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
